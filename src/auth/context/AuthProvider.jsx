@@ -2,7 +2,7 @@ import { useReducer } from "react";
 import PropTypes from "prop-types";
 import { AuthContext } from "./AuthContext";
 import { authReducer } from "./authReducer";
-import { types } from "../types/types";
+import { types } from "../types";
 
 // const initialState = {
 //   logged: false,

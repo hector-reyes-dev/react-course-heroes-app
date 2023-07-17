@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { Navigate } from "react-router-dom";
 import PropTypes from "prop-types";
+import { Navigate } from "react-router-dom";
 import { AuthContext } from "../auth/context/AuthContext";
 
 export const PublicRoutes = ({ children }) => {

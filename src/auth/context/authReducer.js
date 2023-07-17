@@ -1,4 +1,4 @@
-import { types } from "../types/types";
+import { types } from "../types";
 
 const initialState = {
   logged: false,
@@ -15,7 +15,6 @@ export const authReducer = (state = initialState, action) => {
 
     case types.logout:
       return {
-        ...state,
         logged: false,
       };
 

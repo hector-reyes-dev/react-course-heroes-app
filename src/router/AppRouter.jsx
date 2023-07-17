@@ -9,7 +9,7 @@ export const AppRouter = () => {
     <>
       <Routes>
         <Route
-          path="*"
+          path="/*"
           element={
             <PrivateRoutes>
               <HeroesRoutes />
